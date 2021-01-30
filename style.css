@@ -19,6 +19,7 @@ body {
 	position: relative;
 }
 
+
 /*--------------------------------------------*/
 /* CONTAINERS */
 /*--------------------------------------------*/
@@ -39,6 +40,19 @@ body {
 	background-color: rgba(27, 27, 50, 0.8);
 }
 
+@media (max-width: 770px) {
+	.form-container {
+		width: 93%;
+		max-width: 540px;
+	}	
+
+}
+
+@media (min-width: 400px) {
+	.form-container {
+		width: 100%;
+	}	
+}
 
 .survey-container {
 	max-width: 88%;
@@ -46,10 +60,9 @@ body {
 }
 
 .flex-item {
+	display: block;
 	padding-top: 3em;
 }
-
-
 
 
 /*--------------------------------------------*/
@@ -126,7 +139,6 @@ body {
 	padding-bottom: 0.7em;
 	margin-top: 0.5em;
 	margin-bottom: 4em;
-
 }
 
 
